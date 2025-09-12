@@ -1,7 +1,3 @@
-Terima kasih atas contohnya. Format tersebut lebih ringkas dan fokus pada fitur-fitur yang disertakan, serta terlihat profesional. Saya akan buatkan format `README.md` yang disesuaikan dengan gaya tersebut. Anda bisa langsung salin dan tempel (copy-paste) ke file `README.md` di GitHub Anda.
-
------
-
 # loan\_web
 
 Aplikasi web manajemen pinjaman berbasis Laravel.
