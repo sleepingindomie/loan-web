@@ -14,8 +14,8 @@
 
 
 -- Dumping database structure for loan_web
-CREATE DATABASE IF NOT EXISTS `loanweb_mirrorcity` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `loanweb_mirrorcity`;
+CREATE DATABASE IF NOT EXISTS `loan_web` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `loan_web`;
 
 -- Dumping structure for table loan_web.cache
 CREATE TABLE IF NOT EXISTS `cache` (
