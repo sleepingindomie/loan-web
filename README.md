@@ -19,7 +19,7 @@ Ikuti panduan di bawah ini untuk menginstal proyek ini di lingkungan lokal Anda.
 1.  **Kloning Repositori**
 
     ```bash
-    git clone [URL_REPOSITORI_ANDA]
+    git clone https://github.com/sleepingindomie/loan-web.git
     cd loan_web
     ```
 
