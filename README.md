@@ -43,7 +43,7 @@ Ikuti panduan di bawah ini untuk menginstal proyek ini di lingkungan lokal Anda.
     php artisan serve
     ```
 
-    Buka `http://127.0.0.1:8000` di peramban Anda untuk melihat aplikasi.
+    Buka `http://127.0.0.1:8000` di browser Anda untuk melihat aplikasi.
 
 -----
 
