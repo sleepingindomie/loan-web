@@ -8,7 +8,7 @@ Aplikasi web manajemen pinjaman berbasis Laravel.
 
 Ikuti panduan di bawah ini untuk menginstal proyek ini di lingkungan lokal Anda.
 
-### Prasyarat
+### Syarat yang dibutuhkan
 
   - PHP 8.2 atau lebih tinggi
   - Composer
