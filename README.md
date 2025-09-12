@@ -51,17 +51,16 @@ Ikuti panduan di bawah ini untuk menginstal proyek ini di lingkungan lokal Anda.
 
 ### Halaman
 
-  - Dashboard
-  - Manajemen Peminjam
-  - Manajemen Pinjaman
-  - Laporan
+  - Dashboard admin
+  - Dashboard Peminjam (Disetujui/Ditolak)
+  - Status Pinjaman
 
 ### Antarmuka Pengguna
 
   - Login
   - Register
-  - Tabel data
-  - Formulir
+  - Tabel data pinjaman
+  - Formulir peminjaman
 
 -----
 
