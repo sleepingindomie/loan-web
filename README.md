@@ -1,3 +1,44 @@
+Proyek ini merupakan aplikasi web pinjaman berbasis Laravel. Untuk menginstal dan menjalankan proyek ini di perangkat Anda, ikuti langkah-langkah berikut:
+
+Langkah-langkah Instalasi
+Kloning Repositori: Unduh proyek dari GitHub dengan menggunakan perintah git clone di terminal atau CMD Anda. Ganti <URL_REPOSITORI> dengan URL proyek yang sesuai.
+
+Bash
+
+git clone <URL_REPOSITORI>
+Navigasi ke Direktori Proyek: Masuk ke folder proyek yang baru saja diunduh menggunakan perintah cd.
+
+Bash
+
+cd loan_web
+Instalasi Dependensi: Jalankan composer install untuk menginstal semua dependensi PHP yang dibutuhkan oleh proyek.
+
+Konfigurasi Lingkungan: Salin file .env.example ke .env untuk membuat berkas konfigurasi lingkungan.
+
+Bash
+
+cp .env.example .env
+Impor Basis Data: Impor file loan_web.sql ke MySQL Anda (bisa menggunakan phpMyAdmin, Laragon, XAMPP, atau lainnya).
+
+Sesuaikan .env: Buka file .env dan perbarui detail basis data sesuai dengan konfigurasi Anda. Pastikan DB_DATABASE diatur ke loan_web, dan sesuaikan DB_USERNAME serta DB_PASSWORD dengan pengaturan lokal Anda.
+
+Generate Kunci Aplikasi: Jalankan perintah ini untuk membuat kunci aplikasi yang unik.
+
+Bash
+
+php artisan key:generate
+Jalankan Migrasi: Lakukan migrasi basis data untuk membuat tabel yang diperlukan.
+
+Bash
+
+php artisan migrate
+Jalankan Server: Mulai server pengembangan Laravel dengan perintah berikut.
+
+Bash
+
+php artisan serve
+Setelah server berjalan, Anda akan mendapatkan tautan di terminal. Salin tautan tersebut dan tempelkan di peramban web Anda untuk mengakses aplikasi.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
